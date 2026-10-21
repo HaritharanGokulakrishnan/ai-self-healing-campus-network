@@ -1,0 +1,32 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ctrl_venv/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backup copies
+*.pre_*
+
+# Temporary test and smoke-test output
+congestion_smoke_test.csv
+recovery_ack_test.csv
+
+# Keep generated project evidence and model artifacts available for review

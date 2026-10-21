@@ -1,0 +1,23 @@
+Dataset rows: 660
+label
+normal          390
+congestion      150
+link_failure    120
+
+== Isolation Forest (anomaly detection) ==
+Accuracy : 0.975
+Precision: 0.942
+Recall   : 1.000
+F1       : 0.970
+
+== Random Forest (fault classification) ==
+Accuracy: 0.995
+              precision    recall  f1-score   support
+
+      normal       0.99      1.00      1.00       117
+link_failure       1.00      1.00      1.00        36
+  congestion       1.00      0.98      0.99        45
+
+    accuracy                           0.99       198
+   macro avg       1.00      0.99      0.99       198
+weighted avg       0.99      0.99      0.99       198

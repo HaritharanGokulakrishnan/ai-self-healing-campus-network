@@ -1,0 +1,19 @@
+Rows: 660, scenarios held out one at a time: 11
+
+Anomaly detection (Isolation Forest)  Accuracy Precision    Recall        F1
+Random split (Review 2)                0.975     0.942     1.000     0.970
+Leave-one-scenario-out                 0.968     0.931     0.996     0.962
+
+Fault classification (Random Forest)  Accuracy
+Random split (Review 2)                0.995
+Leave-one-scenario-out                 0.988
+
+Per held-out fault scenario (fault rows only):
+Scenario                       Rows  IF detected   RF correct
+congestion_cs-hos                50         100%          96%
+congestion_lib-admin             50          98%          96%
+congestion_lib-hos               50         100%          98%
+link_failure_ADMIN               30         100%         100%
+link_failure_CS                  30         100%         100%
+link_failure_HOSTEL              30         100%         100%
+link_failure_LIB                 30         100%         100%

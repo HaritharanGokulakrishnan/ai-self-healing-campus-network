@@ -1,0 +1,5 @@
+trial,mode,building,detect_s,recover_s,recovered
+1,no-heal,LIB,,,False
+2,no-heal,CS,,,False
+3,no-heal,ADMIN,,,False
+4,no-heal,HOSTEL,,,False
