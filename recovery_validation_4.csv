@@ -1,0 +1,5 @@
+trial,mode,building,detect_s,recover_s,recovered
+1,heal,LIB,1.83,2.25,True
+2,heal,CS,1.84,1.84,True
+3,heal,ADMIN,1.84,2.26,True
+4,heal,HOSTEL,1.83,2.24,True
