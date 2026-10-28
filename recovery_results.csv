@@ -1,5 +1,5 @@
 trial,mode,building,detect_s,recover_s,recovered
-1,heal,LIB,1.84,2.95,True
-2,heal,CS,1.84,1.85,True
-3,heal,ADMIN,1.83,2.95,True
-4,heal,HOSTEL,1.83,2.94,True
+1,heal,LIB,1.85,1.86,True
+2,heal,CS,1.84,1.86,True
+3,heal,ADMIN,1.85,1.86,True
+4,heal,HOSTEL,1.85,2.28,True
